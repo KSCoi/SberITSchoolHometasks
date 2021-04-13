@@ -1,13 +1,11 @@
 package com.zoo.exception;
 
-public class NegativeValueException extends Exception{
+public class NegativeValueException extends Exception  {
     private int age;
-    public int getAge()
-    {
+    public int getAge()  {
         return this.age;
     }
-    public NegativeValueException(String message, int age)
-    {
+    public NegativeValueException(String message, int age)  {
         super(message);
         this.age = age;
     }
