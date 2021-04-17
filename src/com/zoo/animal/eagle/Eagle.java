@@ -3,8 +3,19 @@ package com.zoo.animal.eagle;
 import com.zoo.animal.Animal;
 import com.zoo.animal.Flyable;
 import com.zoo.animal.Moveable;
+import com.zoo.exception.NegativeValueException;
 
 public class Eagle extends Animal implements Moveable, Flyable {
+
+    Eagle(String name, int age) throws NegativeValueException
+    {
+        super(name,age);
+    }
+    Eagle(){}
+    Eagle (String name)
+    {
+        super(name);
+    }
 
     @Override
     public void Eat() {
