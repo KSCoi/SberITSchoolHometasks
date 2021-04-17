@@ -37,3 +37,6 @@
 
 # Log file
 *.log
+
+#any file
+**/inClassWork
