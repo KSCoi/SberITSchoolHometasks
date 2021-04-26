@@ -1,6 +1,6 @@
 package com.zoo.exception;
 
-public class NegativeValueException extends Exception  {
+public class NegativeValueException extends RuntimeException  {
     private int age;
     public int getAge()  {
         return this.age;

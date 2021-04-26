@@ -1,18 +1,18 @@
 package com.zoo.animal.seal;
 
 import com.zoo.animal.Animal;
-import com.zoo.animal.Moveable;
-import com.zoo.animal.Swimable;
+import com.zoo.animal.interfaces.Moveable;
+import com.zoo.animal.interfaces.Swimable;
 import com.zoo.exception.NegativeValueException;
 
 public class Seal extends Animal implements Swimable, Moveable {
 
-    Seal(String name, int age) throws NegativeValueException
+    public Seal(String name, int age) throws NegativeValueException
     {
         super(name,age);
     }
-    Seal(){}
-    Seal(String name) {
+    public Seal(){}
+    public Seal(String name) {
         super(name);
     }
     @Override

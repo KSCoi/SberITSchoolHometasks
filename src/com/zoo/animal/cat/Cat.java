@@ -1,7 +1,7 @@
 package com.zoo.animal.cat;
 
 import com.zoo.animal.Animal;
-import com.zoo.animal.Moveable;
+import com.zoo.animal.interfaces.Moveable;
 import com.zoo.exception.ColorException;
 import com.zoo.exception.NegativeValueException;
 
