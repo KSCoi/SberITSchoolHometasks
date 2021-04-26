@@ -1,4 +1,4 @@
-package com.zoo.test;
+package test;
 
 import com.zoo.animal.cat.Cat;
 import com.zoo.animal.eagle.Eagle;

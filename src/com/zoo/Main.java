@@ -4,13 +4,9 @@ import com.zoo.animal.cat.Cat;
 import com.zoo.animal.eagle.Eagle;
 import com.zoo.animal.seal.Seal;
 import com.zoo.animal.tiger.Tiger;
-import com.zoo.enclosure.Enclosure;
 import com.zoo.enclosure.EnclosuresInZoo;
-import com.zoo.exception.AnimalDuplicateException;
 import com.zoo.exception.EnclosureNotFoundException;
-import com.zoo.exception.EnclosureSizeException;
 import com.zoo.exception.ZooFullEnclosuresException;
-import com.zoo.test.EnclosuresInZooTest;
 
 public class Main {
 
