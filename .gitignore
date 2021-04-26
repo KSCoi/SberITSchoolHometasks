@@ -40,4 +40,4 @@
 
 #any file
 **/inClassWork
-**/com/zoo/test
+/com/zoo/**test
