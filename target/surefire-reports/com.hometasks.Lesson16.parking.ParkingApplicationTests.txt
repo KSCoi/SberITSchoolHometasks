@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hometasks.Lesson16.parking.ParkingApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.979 s - in com.hometasks.Lesson16.parking.ParkingApplicationTests
